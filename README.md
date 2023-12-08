@@ -28,13 +28,13 @@
 
 
 <h2>Create a VPN connection</h2>
-<p></p>
+<p>Before creating a VPN connection make sure to configure a VPN device. You will need a shared key and public IP address of the virtual network gateway.<br> When creating a connection make sure to connect you resource group, make connection type: Site-to-Site, a name for your connection and also Region.<br> On the settings tab, select a virtual network gateway, local network gateway, a shared key that matches your local VPN device, Select IKEV2, and leave everything else as defualt.<br> Once completed click review + create. </p>
 
 ![Create Connection](https://github.com/Bamlak11/Azure-Site2Site-VPN-Connection/assets/77420100/64cdd6da-1e0e-45e0-b130-07affc1a0a95)
 
 
 <h2>Connect to a virtual machine</h2>
-<p></p>
+<p>Lastly, create a virtual machine, configure the machines network settings to match the virtual network, and test if your VM can communicate to your on-premises network.</p>
 
 ![VM-1](https://github.com/Bamlak11/Azure-Site2Site-VPN-Connection/assets/77420100/3d946802-25cf-4e7f-b479-e8544424309c)
 
