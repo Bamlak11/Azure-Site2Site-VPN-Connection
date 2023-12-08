@@ -15,20 +15,20 @@
 
 
 <h2>Create a VPN gateway</h2>
-<p>Next a VPN gateway must be created. This process may take more then 40 minutes to deploy<br> The information needed to fill out this information is a name, region, gateway type: VPN, SKU that you prefer, generation, Virtual network: select the virtual network you created, Gateway subnet address range, and Public IP address.<br> Once this is created click Review + Create.</p>
+<p>Next a VPN gateway must be created. This process may take more then 40 minutes to deploy.<br> The information needed to fill out this information is a name, region, gateway type: VPN, SKU that you prefer, generation, Virtual network: select the virtual network you created, Gateway subnet address range, and Public IP address.<br> Once this is created click Review + Create.</p>
 
 ![VPNgw](https://github.com/Bamlak11/Azure-Site2Site-VPN-Connection/assets/77420100/3b0258ff-480d-4389-a362-cb320844c2cb)
 
 
 
 <h2>Create a local network gateway</h2>
-<p>A local network gateway is what will represent your on-premisis location.<br> For this section you must name your site, connect it to your resource group, choose region, and select an endpoint such as an IP address or FDQN for the on-premisis device. <br> You are able to configure BGP in the advance tab if needed. Once completed review and create your local network gateway. </p>
+<p>A local network gateway is what will represent your on-premisis location.<br> For this section you must name your site, connect it to your resource group, choose region, and select an endpoint such as an IP address or FDQN for the on-premisis device. <br> You are able to configure BGP in the advance tab if needed. Once completed review + create your local network gateway. </p>
 
 ![Local Network Gateway](https://github.com/Bamlak11/Azure-Site2Site-VPN-Connection/assets/77420100/835a83b9-101e-4fa5-851a-fe73c214f6f5)
 
 
 <h2>Create a VPN connection</h2>
-<p>Before creating a VPN connection make sure to configure a VPN device. You will need a shared key and public IP address of the virtual network gateway.<br> When creating a connection make sure to connect you resource group, make connection type: Site-to-Site, a name for your connection and also Region.<br> On the settings tab, select a virtual network gateway, local network gateway, a shared key that matches your local VPN device, Select IKEV2, and leave everything else as defualt.<br> Once completed click review + create. </p>
+<p>Before creating a VPN connection make sure to configure a VPN device. You will need a shared key and public IP address of the virtual network gateway.<br> When creating a connection make sure to connect you resource group, make connection type: Site-to-Site, a name for your connection, and also Region.<br> On the settings tab, select a virtual network gateway, local network gateway, a shared key that matches your local VPN device, Select IKEV2, and leave everything else as defualt.<br> Once completed click review + create. </p>
 
 ![Create Connection](https://github.com/Bamlak11/Azure-Site2Site-VPN-Connection/assets/77420100/64cdd6da-1e0e-45e0-b130-07affc1a0a95)
 
